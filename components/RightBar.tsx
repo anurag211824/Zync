@@ -1,3 +1,8 @@
+//@ts-nocheck
 export default function RightBar() {
-  return <div>RightBar</div>;
+  return (
+ <>
+ <p>Hu</p>
+ </>
+  );
 }
