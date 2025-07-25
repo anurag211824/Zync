@@ -104,7 +104,8 @@ export default function LeftBar() {
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 relative rounded-full overflow-hidden">
             
-            <Image href="general/avatar.png"
+            <Image
+            src="/general/avatar.png"
             alt="Saurabh"
             width={100}
             height={100}/>
