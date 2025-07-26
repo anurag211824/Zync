@@ -1,9 +1,6 @@
 //@ts-nocheck
-
+"use client";
 export default function Home() {
-  return (
-    <div>
-      Resize me to see breakpoints in action!
-    </div>
-  );
+  const urlEndpoint = process.env.NEXT_PUBLIC_URL_ENDPOINT;
+  return <div></div>;
 }
