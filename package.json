@@ -9,10 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@imagekit/next": "^2.1.2",
     "next": "15.4.3",
     "react": "19.1.0",
     "react-dom": "19.1.0"
+=======
+    "@prisma/client": "^6.12.0",
+    "next": "15.4.3",
+    "prisma": "^6.12.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "tailwind": "^4.0.0"
+>>>>>>> db422f046f95eab631c82c6e3ca95a60da5a2c16
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -25,4 +34,8 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> db422f046f95eab631c82c6e3ca95a60da5a2c16
