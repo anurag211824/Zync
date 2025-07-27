@@ -65,7 +65,7 @@ export default function LeftBar() {
     },
   ];
   return (
-    <div className="h-screen sticky top-0 flex flex-col justify-between pt-2 pb-8">
+    <div className="h-screen sticky top-0 flex flex-col justify-between pt-2 pb-7">
       <div className="flex flex-col gap-4 text-lg  items-center xxl:items-start">
         <Link href="/" className="p-2 rounded-full hover:bg-[#181818]">
           <Image src="icons/logo.svg" alt="logo" width={24} height={24} />
@@ -96,7 +96,7 @@ export default function LeftBar() {
       </Link>
       <Link
         href="/"
-        className="hidden xxl:block bg-white text-black rounded-full font-bold py-2 px-20"
+        className="hidden xxl:block bg-white text-black rounded-full font-bold py-2 mt-1 mb-2.5 px-20"
       >
         Post
       </Link>
