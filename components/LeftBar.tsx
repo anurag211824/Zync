@@ -66,9 +66,9 @@ export default function LeftBar() {
   ];
   return (
     <div className="h-screen sticky top-0 flex flex-col justify-between pt-2 pb-8">
-      <div className="flex flex-col gap-4 text-lg  items-center xxl:items-start">
-        <Link href="/" className="p-2 rounded-full hover:bg-[#181818]">
-          <Image src="icons/logo.svg" alt="logo" width={24} height={24} />
+      <div className="flex flex-col gap-4 text-center text-lg  items-center xxl:items-start">
+        <Link href="/" className="p-2 rounded-full">
+          <Image className="text-center" src="/Zync Logo on Black Background.png" alt="logo" width={85} height={85} />
         </Link>
       </div>
       <div className="flex flex-col gap-4">
@@ -79,7 +79,7 @@ export default function LeftBar() {
             className="p-2 rounded-full hover:bg-[#181818] flex flex-row items-center gap-4"
           >
             <Image
-              src={`icons/${item.icon}`}
+              src= {item.id === 8 ? `/Zync Logo on Black Background.png` : `icons/${item.icon}`}
               alt={item.name}
               width={24}
               height={24}
