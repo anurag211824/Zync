@@ -6,6 +6,7 @@ export default async function Home() {
   return (
     <div>
       Resize me to see breakpoints in action!
+      <p>hi gaurav here </p>
     </div>
   );
 }
