@@ -22,13 +22,13 @@ export default async function Home() {
         <Link href="/" className="pb-3 flex items-center border-b-4 ">
           Following
         </Link>
-        <Link href="/" className="pb-3 flex items-center border-b-4 ">
+        <Link href="/" className="pb-3 flex items-center md:hidden border-b-4 ">
           React.js
         </Link>
-        <Link href="/" className="pb-3 flex items-center border-b-4 ">
+        <Link href="/" className="pb-3 flex items-center md:hidden border-b-4 ">
           Javascript
         </Link>
-        <Link href="/" className="pb-3 flex items-center border-b-4 ">
+        <Link href="/" className="pb-3 flex items-center md:hidden border-b-4 ">
           CSS
         </Link>
       </div>
