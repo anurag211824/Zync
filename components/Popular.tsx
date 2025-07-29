@@ -1,5 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
+import ImageComp from "./ImageComp";
+
 
 export default function Popular() {
   return (
@@ -10,11 +11,11 @@ export default function Popular() {
 
       <div className="flex gap-4">
         <div className="relative w-20 h-20 rounded-xl overflow-hidden">
-          <Image
+          <ImageComp
             src="/general/post.jpeg"
             alt="event"
-            width={120}
-            height={120}    />
+            w={120}
+            h={120}    />
         </div>
         <div className="flex-1">
           <h2 className="font-bold text-textGrayLight">
@@ -27,7 +28,7 @@ export default function Popular() {
       <div className="">
         <div className="flex items-center justify-between">
           <span className="text-textGray text-sm">Technology • Trending</span>
-          <Image src="icons/infoMore.svg" alt="info" width={16} height={16} />
+          <ImageComp src="icons/infoMore.svg" alt="info" w={16} h={16} />
         </div>
         <h2 className="text-textGrayLight font-bold">OpenAI</h2>
         <span className="text-textGray text-sm">20K posts</span>
@@ -36,7 +37,7 @@ export default function Popular() {
       <div className="">
         <div className="flex items-center justify-between">
           <span className="text-textGray text-sm">Technology • Trending</span>
-          <Image src="icons/infoMore.svg" alt="info" width={16} height={16} />
+          <ImageComp src="icons/infoMore.svg" alt="info" w={16} h={16} />
         </div>
         <h2 className="text-textGrayLight font-bold">OpenAI</h2>
         <span className="text-textGray text-sm">20K posts</span>
@@ -45,7 +46,7 @@ export default function Popular() {
       <div className="">
         <div className="flex items-center justify-between">
           <span className="text-textGray text-sm">Technology • Trending</span>
-          <Image src="icons/infoMore.svg" alt="info" width={16} height={16} />
+          <ImageComp src="icons/infoMore.svg" alt="info" w={16} h={16} />
         </div>
         <h2 className="text-textGrayLight font-bold">OpenAI</h2>
         <span className="text-textGray text-sm">20K posts</span>
@@ -54,7 +55,7 @@ export default function Popular() {
       <div className="">
         <div className="flex items-center justify-between">
           <span className="text-textGray text-sm">Technology • Trending</span>
-          <Image src="icons/infoMore.svg" alt="info" width={16} height={16} />
+          <ImageComp src="icons/infoMore.svg" alt="info" w={16} h={16} />
         </div>
         <h2 className="text-textGrayLight font-bold">OpenAI</h2>
         <span className="text-textGray text-sm">20K posts</span>

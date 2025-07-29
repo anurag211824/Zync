@@ -1,5 +1,6 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
+import ImageComp from "./ImageComp";
 
 export default function LeftBar() {
   const menuList = [
@@ -65,10 +66,10 @@ export default function LeftBar() {
     },
   ];
   return (
-    <div className="h-screen sticky top-0 flex flex-col justify-between pt-2 pb-8">
-      <div className="flex flex-col gap-4 text-center text-lg  items-center xxl:items-start">
-        <Link href="/" className="p-2 rounded-full">
-          <Image className="text-center" src="/Zync Logo on Black Background.png" alt="logo" width={85} height={85} />
+    <div className="h-screen sticky top-0 flex flex-col justify-between pt-2 pb-7">
+      <div className="flex flex-col gap-4 text-lg  items-center xxl:items-start">
+        <Link href="/" className="p-2 rounded-full hover:bg-[#181818]">
+          <ImageComp src="icons/logo.svg" alt="logo" w={24} h={24} />
         </Link>
       </div>
       <div className="flex flex-col gap-4">
@@ -78,11 +79,11 @@ export default function LeftBar() {
             key={item.id}
             className="p-2 rounded-full hover:bg-[#181818] flex flex-row items-center gap-4"
           >
-            <Image
-              src= {item.id === 8 ? `/Zync Logo on Black Background.png` : `icons/${item.icon}`}
+            <ImageComp
+              src={`icons/${item.icon}`}
               alt={item.name}
-              width={24}
-              height={24}
+              w={24}
+              h={24}
             />
             <span className="max-lg:hidden">{item.name}</span>
           </Link>
@@ -92,11 +93,11 @@ export default function LeftBar() {
         href="/"
         className="bg-white text-black rounded-full w-12 flex items-center justify-center xxl:hidden"
       >
-        <Image src="icons/post.svg" alt="new post" width={24} height={24} />
+        <ImageComp src="icons/post.svg" alt="new post" w={24} h={24} />
       </Link>
       <Link
         href="/"
-        className="hidden xxl:block bg-white text-black rounded-full font-bold py-2 px-20"
+        className="hidden xxl:block bg-white text-black rounded-full font-bold py-2 mt-1 mb-2.5 px-20"
       >
         Post
       </Link>
@@ -104,10 +105,10 @@ export default function LeftBar() {
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 relative rounded-full overflow-hidden">
             
-            <Image src="/general/avatar.png"
+            <ImageComp src="/general/avatar.png"
             alt="Saurabh"
-            width={100}
-            height={100}/>
+            w={100}
+            h={100}/>
           </div>
           <div className="hidden xxl:flex flex-col">
             <span className="font-bold">Saurabh Kumar</span>

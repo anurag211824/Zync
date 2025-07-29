@@ -4,9 +4,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  
+  
+  
 }
 
-@theme  {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -23,7 +26,8 @@
   --color-inputGray: #202327;
   --color-iconBlue: #1d9bf0;
   --color-iconGreen: #00ba7c;
-  --color-iconPink: #f91880;
+  --color-iconPink: #f91880;
+  
 }
 
 
